@@ -45,9 +45,9 @@ public class SafetyOverrides extends BaseHullMod {
 	//private static final float MALFUNCTION_PROB = 0.05f;
 
 	//ILL ADVISED MODIFICATION
-	private static final float RECOIL_MULT = 2f;
-	private static final float WEAPON_MALFUNCTION_PROB = 0.05f;
-	private static final float ENGINE_MALFUNCTION_PROB = 0.005f;
+	//private static final float RECOIL_MULT = 2f;
+	//private static final float WEAPON_MALFUNCTION_PROB = 0.05f;
+	//private static final float ENGINE_MALFUNCTION_PROB = 0.005f;
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getMaxSpeed().modifyFlat(id, (Float) speed.get(hullSize));
